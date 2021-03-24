@@ -57,6 +57,10 @@ h2 {
     padding: 75px 20px;
 }
 
+.content {
+    text-align: center;
+}
+
 .content h1 {
     font-size: 56px;
     line-height: 70px;
