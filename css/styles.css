@@ -53,6 +53,25 @@ h2 {
     margin: 0;
 }
 
+.about-section {
+    padding: 75px 20px;
+}
+
+.about-section h1 {
+    font-size: 56px;
+    line-height: 70px;
+}
+
+.about-section h2 {
+    font-size: 18px;
+    font-family: var(--default-font-family);
+    font-weight: 400;
+}
+
+.about-section p {
+    line-height: 1.6;
+}
+
 .btn-branding {
     background: var(--branding-color);
     color: white;
@@ -87,12 +106,25 @@ h2 {
     h2 {
         font-size: 42px;
     }
+    .tagline {
+        text-align: center;
+    }
     .hero {
         padding: 80px 20px;
     }
     .project-description {
         text-align: center;
         padding: 0;
+    }
+    .about-section {
+        text-align: center;
+        padding: 20px;
+    }
+    .about-section h1 {
+        font-size: 50px;
+    }
+    .about-section h2 {
+        font-size: 16px;
     }
 }
 
