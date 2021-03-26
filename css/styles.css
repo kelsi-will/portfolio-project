@@ -32,6 +32,15 @@ h2 {
     font-size: 62px;
 }
 
+nav {
+    font-family: var(--default-font-family);
+}
+
+nav .active,
+nav a:hover {
+    color: var(--branding-color) !important;
+}
+
 .hero {
     background: var(--secondary-color);
     text-align: center;
